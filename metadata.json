@@ -1,0 +1,6 @@
+{
+  "name": "Bal Hanuman Math Magic Land",
+  "description": "An offline-first tactile gamified math adventure for young learners with classroom multi-profile switching, interactive manipulatives, and local data reset features.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

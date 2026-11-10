@@ -1,0 +1,206 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #fcf8ff;
+    color: #181445;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Chunky Tactile 3D Buttons & Cards according to Design System */
+.tactile-btn-primary {
+  background-color: #ff7a00;
+  color: #ffffff;
+  border-bottom: 5px solid #d95f00;
+  border-radius: 9999px;
+  font-weight: 700;
+  transition: transform 0.1s ease, border-bottom 0.1s ease, background-color 0.15s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(255, 122, 0, 0.25);
+}
+.tactile-btn-primary:hover {
+  background-color: #ff8b1a;
+}
+.tactile-btn-primary:active {
+  transform: translateY(3px);
+  border-bottom-width: 2px;
+  box-shadow: 0 2px 6px rgba(255, 122, 0, 0.2);
+}
+
+.tactile-btn-secondary {
+  background-color: #00b4d8;
+  color: #ffffff;
+  border-bottom: 5px solid #0284a4;
+  border-radius: 9999px;
+  font-weight: 700;
+  transition: transform 0.1s ease, border-bottom 0.1s ease, background-color 0.15s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 180, 216, 0.25);
+}
+.tactile-btn-secondary:hover {
+  background-color: #1dc2e5;
+}
+.tactile-btn-secondary:active {
+  transform: translateY(3px);
+  border-bottom-width: 2px;
+  box-shadow: 0 2px 6px rgba(0, 180, 216, 0.2);
+}
+
+.tactile-btn-gold {
+  background-color: #ffc727;
+  color: #321200;
+  border-bottom: 5px solid #d49c00;
+  border-radius: 9999px;
+  font-weight: 800;
+  transition: transform 0.1s ease, border-bottom 0.1s ease, background-color 0.15s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(255, 199, 39, 0.35);
+}
+.tactile-btn-gold:hover {
+  background-color: #ffd24d;
+}
+.tactile-btn-gold:active {
+  transform: translateY(3px);
+  border-bottom-width: 2px;
+}
+
+.tactile-btn-success {
+  background-color: #10b981;
+  color: #ffffff;
+  border-bottom: 5px solid #059669;
+  border-radius: 9999px;
+  font-weight: 700;
+  transition: transform 0.1s ease, border-bottom 0.1s ease;
+  cursor: pointer;
+}
+.tactile-btn-success:active {
+  transform: translateY(3px);
+  border-bottom-width: 2px;
+}
+
+.tactile-btn-white {
+  background-color: #ffffff;
+  color: #181445;
+  border: 2px solid #e9e5ff;
+  border-bottom: 5px solid #dad6ff;
+  border-radius: 9999px;
+  font-weight: 700;
+  transition: transform 0.1s ease, border-bottom 0.1s ease, background-color 0.15s ease;
+  cursor: pointer;
+}
+.tactile-btn-white:hover {
+  background-color: #f6f2ff;
+}
+.tactile-btn-white:active {
+  transform: translateY(3px);
+  border-bottom-width: 2px;
+}
+
+/* Tactile Plush Cards */
+.tactile-card {
+  background-color: #ffffff;
+  border: 2px solid #efebff;
+  border-bottom: 5px solid #dad6ff;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 24px -4px rgba(24, 20, 69, 0.05);
+}
+
+.tactile-card-saffron {
+  background: linear-gradient(135deg, #fff7ed 0%, #ffffff 100%);
+  border: 2px solid #fed7aa;
+  border-bottom: 5px solid #fdba74;
+  border-radius: 1.5rem;
+}
+
+.tactile-card-sky {
+  background: linear-gradient(135deg, #f0f9ff 0%, #ffffff 100%);
+  border: 2px solid #bae6fd;
+  border-bottom: 5px solid #7dd3fc;
+  border-radius: 1.5rem;
+}
+
+/* Keypad Key */
+.tactile-keypad-key {
+  background-color: #ffffff;
+  color: #181445;
+  border: 2px solid #e9e5ff;
+  border-bottom: 5px solid #dad6ff;
+  border-radius: 1.25rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  transition: transform 0.08s ease, border-bottom 0.08s ease, background-color 0.1s ease;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 54px;
+}
+.tactile-keypad-key:active {
+  transform: translateY(3px);
+  border-bottom-width: 2px;
+  background-color: #f6f2ff;
+}
+
+/* Option Tile */
+.tactile-option-tile {
+  background-color: #ffffff;
+  border: 2px solid #e9e5ff;
+  border-bottom: 5px solid #dad6ff;
+  border-radius: 1.25rem;
+  font-weight: 800;
+  transition: all 0.15s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+}
+.tactile-option-tile:hover {
+  border-color: #00b4d8;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 180, 216, 0.15);
+}
+.tactile-option-tile:active {
+  transform: translateY(3px);
+  border-bottom-width: 2px;
+}
+
+.tactile-option-correct {
+  background-color: #ecfdf5 !important;
+  border-color: #10b981 !important;
+  border-bottom: 5px solid #059669 !important;
+  color: #065f46 !important;
+}
+
+.tactile-option-wrong {
+  background-color: #fef2f2 !important;
+  border-color: #ef4444 !important;
+  border-bottom: 5px solid #b91c1c !important;
+  color: #991b1b !important;
+}
+
+/* Ambient Floating Animation for Bal Hanuman */
+@keyframes hero-float {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(1deg);
+  }
+}
+
+.animate-hero-float {
+  animation: hero-float 3.5s ease-in-out infinite;
+}
+
+@keyframes star-pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+}
+
+.animate-star-pulse {
+  animation: star-pulse 2s ease-in-out infinite;
+}

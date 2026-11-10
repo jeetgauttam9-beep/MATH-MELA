@@ -1,0 +1,220 @@
+---
+name: Bal Hanuman Math Magic Land
+colors:
+  surface: '#fcf8ff'
+  surface-dim: '#dad6ff'
+  surface-bright: '#fcf8ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f6f2ff'
+  surface-container: '#efebff'
+  surface-container-high: '#e9e5ff'
+  surface-container-highest: '#e3dfff'
+  on-surface: '#181445'
+  on-surface-variant: '#584235'
+  inverse-surface: '#2d2a5b'
+  inverse-on-surface: '#f3eeff'
+  outline: '#8c7263'
+  outline-variant: '#e0c0af'
+  surface-tint: '#994700'
+  primary: '#994700'
+  on-primary: '#ffffff'
+  primary-container: '#ff7a00'
+  on-primary-container: '#5c2800'
+  inverse-primary: '#ffb68b'
+  secondary: '#00677d'
+  on-secondary: '#ffffff'
+  secondary-container: '#50d9fe'
+  on-secondary-container: '#005c70'
+  tertiary: '#775a00'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#c89900'
+  on-tertiary-container: '#463400'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#ffdbc8'
+  primary-fixed-dim: '#ffb68b'
+  on-primary-fixed: '#321200'
+  on-primary-fixed-variant: '#753400'
+  secondary-fixed: '#b3ebff'
+  secondary-fixed-dim: '#4cd6fb'
+  on-secondary-fixed: '#001f27'
+  on-secondary-fixed-variant: '#004e5f'
+  tertiary-fixed: '#ffdf98'
+  tertiary-fixed-dim: '#f6bf1c'
+  on-tertiary-fixed: '#251a00'
+  on-tertiary-fixed-variant: '#5a4300'
+  background: '#fcf8ff'
+  on-background: '#181445'
+  surface-variant: '#e3dfff'
+typography:
+  display-hero:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 44px
+    fontWeight: '800'
+    lineHeight: 52px
+    letterSpacing: -0.02em
+  display-hero-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 32px
+    fontWeight: '800'
+    lineHeight: 40px
+    letterSpacing: -0.01em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 32px
+    fontWeight: '800'
+    lineHeight: 40px
+  headline-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 26px
+    fontWeight: '800'
+    lineHeight: 34px
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 24px
+    fontWeight: '700'
+    lineHeight: 32px
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 20px
+    fontWeight: '700'
+    lineHeight: 28px
+  title-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '700'
+    lineHeight: 26px
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '500'
+    lineHeight: 28px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '500'
+    lineHeight: 24px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '500'
+    lineHeight: 20px
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 15px
+    fontWeight: '700'
+    lineHeight: 20px
+    letterSpacing: 0.02em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '700'
+    lineHeight: 18px
+    letterSpacing: 0.03em
+  numeral-display:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 40px
+    fontWeight: '800'
+    lineHeight: 48px
+rounded:
+  sm: 0.5rem
+  DEFAULT: 1rem
+  md: 1.5rem
+  lg: 2rem
+  xl: 3rem
+  full: 9999px
+spacing:
+  gutter: 1.25rem
+  gutter-mobile: 1rem
+  margin: 2rem
+  margin-mobile: 1rem
+  space-xs: 0.375rem
+  space-sm: 0.75rem
+  space-md: 1.25rem
+  space-lg: 1.75rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system embodies an energetic, mythological-heroic, and delightfully gamified world crafted specifically for young math learners (ages 5–11) and supportive parents. The emotional experience balances the joyful thrill of an adventure arcade with the reassuring calm of an intuitive, distraction-free educational sanctuary. 
+
+The aesthetic is a hybrid of **Tactile Gamification** and **Modern Soft Minimalism**:
+- **Chunky & Tactile:** Elements feel touchable, friendly, and physically responsive with deliberate pill forms, 3D bottom-beveled buttons, and plush modular cards.
+- **Heroic & Mythic Joy:** Motifs inspired by Bal Hanuman—golden sunrise energy, buoyant sky realms, heroic agility, and empowering star streaks.
+- **Cognitive Clarity:** High-contrast text, generous padding, and clear visual hierarchy ensure arithmetic symbols, numerals, and quest instructions are immediately scannable without sensory overload.
+
+## Colors
+
+The color system delivers an invigorating, warm playground contrasted against clean, cloud-soft backdrops:
+
+- **Primary (Saffron Energy - `#FF7A00` / `#FF5500`):** Drives principal actions, power-up streaks, energetic headers, and quest advancement. It signals bravery and forward motion.
+- **Secondary (Joyful Sky Blue - `#00B4D8` / `#38BDF8`):** Applied to auxiliary navigation, interactive manipulatives, math tooltips, and exploratory UI elements.
+- **Tertiary (Golden Sun Yellow - `#FFC727`):** Reserved for rewards, earned stars, coin totals, multipliers, and streak badges.
+- **Success / Nature (Grass Mint Green - `#10B981`):** Highlights correct answers, level completion banners, mastery meters, and health/streak restoration.
+- **Background & Canvas:** Canvas layers transition from soft warm cream (`#FBF9F5`) to pure cloud-white (`#FFFFFF`), keeping the interface bright, airy, and warm.
+- **Neutral & Text (`#1E1B4B` / `#312E81`):** Deep twilight navy replaces harsh pure blacks to retain extreme contrast for legibility while keeping visual tones soft and approachable.
+
+## Typography
+
+**Plus Jakarta Sans** serves as the universal typeface across all roles. Its geometric roundness, generous counter-spaces, and cheerful humanist tone make mathematical glyphs, numbers, and early-reading prompts instantly legible and welcoming for young learners.
+
+- **Numbers & Math Operands:** Numbers in quiz cards and score counters always inherit bold or extra-bold weights (`700` or `800`) to reinforce clarity.
+- **Headings & Badges:** Title text uses tight letter spacing with bold strokes to capture an arcade-ready storybook feel.
+- **Reading Comfort:** Body copy maintains a minimum size of 16px on desktop and 15px on mobile, with loose line heights to accommodate developing reading skills.
+
+## Layout & Spacing
+
+The layout is built upon an 8pt rhythmic spacing scale, utilizing a responsive fluid container system engineered for touch-first finger navigation:
+
+- **Touch Target Assurance:** Interactive components maintain a minimum physical target size of 48px × 48px (ideally 56px height for primary controls on mobile and tablet) to prevent accidental taps.
+- **Grid Architecture:** 
+  - **Desktop / Tablet Landscape:** 12-column grid with a maximum content container of 1120px, allowing dynamic math manipulatives and gamified progress tracks to sit side-by-side.
+  - **Tablet Portrait:** 8-column layout with 24px margins.
+  - **Mobile:** 4-column layout with 16px outer margins, organizing math puzzles into stacked sequential discovery blocks.
+- **Breathing Room:** Deep inner card padding (`space-md` to `space-lg`) prevents visual clutter, allowing children to focus exclusively on one math challenge at a time.
+
+## Elevation & Depth
+
+Visual hierarchy uses **Chunky Tactile Physicality** over realistic photorealism. Instead of dark, blurry dropshadows, depth is expressed through colorful, beveled solid offsets and soft ambient glows:
+
+- **Tactile Level 1 (Resting Cards):** Solid 4px bottom border offset in a shaded tone (e.g., `#FFFFFF` card with a solid `#E9E3D8` lower rim) accompanied by a low-opacity warm ambient blur (`box-shadow: 0 8px 20px -4px rgba(30, 27, 75, 0.06)`).
+- **Tactile Level 2 (3D Interactive Buttons):** Distinctive 4px to 6px solid bottom edge extrusion using a darker tonal shift of the surface color (e.g., `#FF7A00` button with a `#D95F00` 5px bottom bevel). On click or press, the element shifts down along the Y-axis by 3px with the bevel collapsing, creating physical tactile feedback.
+- **Floating Gamified Badges (Reward Layer):** Floating coin counters and star streak chips utilize soft colored radial glows (e.g., gold glow `0 6px 18px rgba(255, 199, 39, 0.45)`).
+- **Modal & Backdrop Overlays:** Deep purple-tinted translucent curtain (`rgba(30, 27, 75, 0.55)`) with a gentle backdrop blur (6px), isolating victory modals, chest reveals, and level summaries.
+
+## Shapes
+
+The design system embraces an ultra-soft, organic, and friendly geometry:
+
+- **Base Radius:** Level 3 (Pill-shaped & Ultra-Rounded). All standard interactive items, cards, and modal sheets carry 16px to 24px corner radii (`rounded-lg` = 2rem / 32px; `rounded-xl` = 3rem / 48px for pill capsules).
+- **Cards & Quest Blocks:** Formed with consistent 20px to 24px corners, evoking tactile toy tiles.
+- **Input Fields & Choice Blocks:** Curved softly at 16px, preventing sharp, rigid edges anywhere in the visual experience.
+- **Badges & Progress Bars:** Fully rounded pill silhouettes (`9999px`), visually reinforcing warmth, speed, and approachability.
+
+## Components
+
+### Buttons
+- **Primary Hero Button:** Chunky saffron orange (`#FF7A00`) with bold white text, rounded pill shape (full radius), 5px solid bottom bevel (`#D95F00`). Active state depresses Y-axis by 3px with reduced shadow height.
+- **Secondary Quest Button:** Joyful sky blue (`#00B4D8`) with a `#0284A4` bottom bevel for secondary missions or hints.
+- **Icon / Audio Button:** Circular 56px container with warm cream background, subtle border, and playful sound/mascot iconography for reading text aloud.
+
+### Chips & Stat Badges
+- **Streak & Star Chips:** High-saturation pill pills with bright golden yellow (`#FFC727`) or saffron backgrounds, featuring large star icons, bold numerals, and contrasting twilight navy labels.
+- **Mana / Heart Chips:** Rounded badge showing remaining attempts with soft mint green or ruby red heart icons.
+
+### Cards & Challenge Tiles
+- **Math Problem Card:** Crisp `#FFFFFF` surface mounted onto the `#FBF9F5` canvas, bordered with a subtle 2px cream outline (`#F0EBE1`), 24px rounded corners, and generous 24px internal padding.
+- **Multiple Choice Option Tile:** Thick 2px border in soft slate/cream that transforms into a vibrant sky blue or saffron outline on hover/focus. When selected, fills with a light tint, shifting to grass mint green (`#10B981`) upon correct verification.
+
+### Form Inputs & Number Keypads
+- **Number Entry Box:** Large, welcoming 64px tall input fields with centered 32px bold numbers, rounded 16px corners, and an active focus halo in sky blue (`#38BDF8`).
+- **Gamified Number Pad:** Giant circular or soft squircle key buttons with 3D press effects, allowing effortless touch input without relying on system software keyboards.
+
+### Checkboxes & Radios
+- Replaced by oversized custom toggle discs (32px diameter) featuring high-contrast checkmarks, star bursts, or hero stickers upon activation.
+
+### Feedback & Reward Banners
+- **Victory Drawer / Modal:** Pops from the bottom with 32px rounded top corners, showering celebratory confetti, star streaks, and animated Bal Hanuman encouragement tags.
